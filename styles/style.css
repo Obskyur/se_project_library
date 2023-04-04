@@ -1,12 +1,12 @@
-html {
+.webpage {
   scroll-behavior: smooth;
 }
 
 .page {
   min-width: 1100px;
   max-width: 1600px;
-  margin: auto;
-  font-family: "Helvetica Neue", "Arial", "sans-serif";
+  margin: 0 auto;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
   font-size: 16px;
   line-height: 20px;
 }
@@ -35,7 +35,7 @@ html {
   display: flex;
   column-gap: 20px;
   list-style: none;
-  padding: 0;
+  padding-left: 0;
   margin: 8px 0 0;
 }
 
@@ -104,6 +104,7 @@ html {
   align-items: start;
   justify-content: space-between;
   box-sizing: border-box;
+  background-color: #f2f2f2;
 }
 
 .events__content {
@@ -261,6 +262,7 @@ html {
   font-size: 44px;
   line-height: 52px;
   margin: 0 0 24px;
+  color: #fff;
 }
 
 .staff__subtitle {
@@ -269,6 +271,7 @@ html {
   line-height: 30px;
   font-weight: 400;
   margin: 0;
+  color: #fff;
 }
 
 .card {
@@ -384,6 +387,10 @@ html {
   margin: 0 0 32px;
 }
 
+.about__paragraph:last-of-type {
+  margin: 0;
+}
+
 .about__circle {
   background-color: #2f80ed;
   width: 495px;
@@ -429,6 +436,10 @@ html {
   margin-bottom: 16px;
 }
 
+.footer__list-item:last-of-type {
+  margin-bottom: 0;
+}
+
 .footer__column-heading {
   margin: 0 0 20px 0;
   font-size: 16px;
@@ -451,8 +462,9 @@ html {
 .footer__social-icon {
   width: 16px;
   height: 16px;
+  margin: 0 10px 0 0;
 }
 
 .footer__copyright {
-  margin-top: 108px;
+  margin: 108px 0 0;
 }
